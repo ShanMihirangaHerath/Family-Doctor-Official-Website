@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-health-dark: #22577A;
+  --color-health-teal: #38A3A5;
+  --color-health-green: #57CC99;
+  --color-health-light: #80ED99;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #22577A, #38A3A5, #57CC99);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
