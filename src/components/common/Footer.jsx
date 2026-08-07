@@ -98,7 +98,7 @@ const Footer = () => {
                 <div className="p-2 bg-slate-800 rounded-lg mr-3 group-hover:bg-health-teal/20 transition-colors">
                   <MapPin className="h-5 w-5 text-health-teal" />
                 </div>
-                <span className="mt-1">Sri Lanka</span>
+                <span className="mt-1">No.555/A/158 HILIFE MEEGODA, COLOMBO</span>
               </li>
               <li className="flex items-center group cursor-default">
                 <div className="p-2 bg-slate-800 rounded-lg mr-3 group-hover:bg-health-teal/20 transition-colors">
