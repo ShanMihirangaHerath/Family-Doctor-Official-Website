@@ -8,6 +8,8 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsOfServicePage from './pages/TermsPage';
 import SubscriptionPage from './pages/SubscriptionPage';
+import NewsAndMediaPage from './pages/NewsAndMediaPage';
+import MediaArchivePage from './pages/MediaArchivePage';
 import FloatingWhatsApp from './components/common/FloatingWhatsApp'; 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
           <Route path="privacy" element={<PrivacyPolicyPage />} />
           <Route path="terms" element={<TermsOfServicePage />} />
+          <Route path="news" element={<NewsAndMediaPage />} />
+          <Route path="media-archive" element={<MediaArchivePage />} />
+          <Route path="subscription" element={<SubscriptionPage />} />
           <Route path="SubscriptionPage" element={<SubscriptionPage />} />
         </Route>
       </Routes>

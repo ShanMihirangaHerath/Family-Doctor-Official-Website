@@ -11,7 +11,8 @@ const Navbar = () => {
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Contact', path: '/contact' },
-    {name: 'Subscriptions', path: '/SubscriptionPage'}
+    { name: 'News', path: '/news' },
+    { name: 'Subscriptions', path: '/subscription' }
   ];
 
   const isActive = (path) => location.pathname === path;
@@ -53,8 +54,6 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-
-
 
           {/* Mobile Menu Button */}
           <button 
