@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsOfServicePage from './pages/TermsPage';
+import RefundPolicyPage from './pages/RefundPolicyPage';
 import SubscriptionPage from './pages/SubscriptionPage';
 import NewsAndMediaPage from './pages/NewsAndMediaPage';
 import MediaArchivePage from './pages/MediaArchivePage';
@@ -27,6 +28,7 @@ function App() {
           <Route path="media-archive" element={<MediaArchivePage />} />
           <Route path="subscription" element={<SubscriptionPage />} />
           <Route path="SubscriptionPage" element={<SubscriptionPage />} />
+          <Route path="refund-policy" element={<RefundPolicyPage />} />
         </Route>
       </Routes>
       

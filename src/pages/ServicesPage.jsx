@@ -55,7 +55,7 @@ const ServicesPage = () => {
   const duplicatedMockups = [...appMockups, ...appMockups];
 
   return (
-    <div className="bg-slate-50 min-h-screen pt-20 pb-24 overflow-hidden">
+    <div className="bg-transparent min-h-screen pt-20 pb-24 overflow-hidden">
       
       {/* Header Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-20 relative">

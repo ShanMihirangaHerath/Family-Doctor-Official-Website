@@ -10,9 +10,9 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Contact', path: '/contact' },
     { name: 'News', path: '/news' },
-    { name: 'Subscriptions', path: '/subscription' }
+    { name: 'Subscriptions', path: '/subscription' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   const isActive = (path) => location.pathname === path;

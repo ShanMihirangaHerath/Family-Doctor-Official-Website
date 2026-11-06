@@ -3,7 +3,7 @@ import { ShieldCheck, Lock, FileText } from 'lucide-react';
 
 const PrivacyPolicyPage = () => {
   return (
-    <div className="bg-slate-50 min-h-screen pt-24 pb-24 overflow-hidden">
+    <div className="bg-transparent min-h-screen pt-24 pb-24 overflow-hidden">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16 relative">
@@ -21,7 +21,7 @@ const PrivacyPolicyPage = () => {
 
       {/* Content Section */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white rounded-[2.5rem] shadow-xl border border-slate-100 p-8 md:p-12 lg:p-16 relative">
+        <div className="bg-transparent-50 rounded-[2.5rem] shadow-xl border border-slate-100 p-8 md:p-12 lg:p-16 relative">
           
           <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-health-dark via-health-teal to-health-green rounded-t-[2.5rem]"></div>
           

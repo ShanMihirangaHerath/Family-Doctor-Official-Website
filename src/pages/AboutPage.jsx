@@ -3,7 +3,7 @@ import { Eye, Target, ShieldCheck, Stethoscope } from 'lucide-react';
 
 const AboutPage = () => {
   return (
-    <div className="overflow-hidden bg-slate-50 min-h-screen pt-24 pb-24">
+    <div className="overflow-hidden bg-transparent min-h-screen pt-24 pb-24">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16 relative">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-health-teal/20 rounded-full blur-3xl -z-10"></div>

@@ -50,7 +50,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="overflow-hidden bg-slate-50">
+    <div className="overflow-hidden bg-transparent">
       
       {/* 1. Hero Section (3D & Floating) */}
       <section className="relative pt-24 pb-20 lg:pt-36 lg:pb-32 overflow-hidden flex items-center min-h-[90vh]">
@@ -140,7 +140,7 @@ const HomePage = () => {
       </section>
 
       {/* 2. Quick Stats Section */}
-      <section className="py-12 bg-white relative z-20 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.05)]">
+      <section className="py-12 bg-transparent-75 relative z-20 shadow-[0_-20px_40px_-15px_rgba(0,0,0,0.05)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
             variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true }}
@@ -165,7 +165,7 @@ const HomePage = () => {
       </section>
 
       {/* 3. Core Services Section (3D Perspective Cards) */}
-      <section className="py-24 bg-slate-50 relative overflow-hidden">
+      <section className="py-24 bg-transparent-50 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <motion.div 
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
@@ -211,7 +211,7 @@ const HomePage = () => {
         </div>
       </section>
 {/* 4. Why Choose Us Section */}
-      <section className="py-24 bg-white relative">
+      <section className="py-24 bg-transparent-25 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
             

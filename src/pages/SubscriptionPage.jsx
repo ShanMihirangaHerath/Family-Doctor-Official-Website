@@ -154,7 +154,7 @@ const SubscriptionPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 font-sans py-8">
+    <div className="min-h-screen bg-transparent font-sans py-8">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <header className="flex items-center justify-between mb-8">

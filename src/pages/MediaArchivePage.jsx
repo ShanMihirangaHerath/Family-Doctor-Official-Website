@@ -27,7 +27,7 @@ const MediaArchivePage = () => {
   }, []);
 
   return (
-    <div className="bg-slate-50 min-h-screen pt-24 pb-16 font-sans">
+    <div className="bg-transparent min-h-screen pt-24 pb-16 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="mb-10 pt-4">

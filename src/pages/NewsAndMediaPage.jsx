@@ -37,7 +37,7 @@ const NewsAndMediaPage = () => {
   const topNews = newsArticles.slice(0, 3);
 
   return (
-    <div className="bg-slate-50 min-h-screen pb-16 font-sans">
+    <div className="bg-transparent min-h-screen pb-16 font-sans">
       
       {/* Page Header */}
       <div className="bg-gradient-to-r from-[#0f2b3c] via-[#1a4a5a] to-[#0B8793] text-white pt-32 pb-20 md:pt-40 md:pb-28 mb-20 shadow-inner relative overflow-hidden">
